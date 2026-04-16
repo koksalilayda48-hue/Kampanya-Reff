@@ -149,7 +149,7 @@ f"""👥 Referansın: {refs}
         elif refs >= 5:
             text = "🎉 5 referans tamamlandı!\n➡️ Vodafone 1-3GB kazandın\n📩 @Weghrumi2"
         else:
-            text = "❌ Henüz ödül yok.\n\n3 kişi → Vodafone\n5 kişi → Turkcell"
+            text = "❌ Henüz ödül yok.\n\n5 kişi → Vodafone\n5 kişi → Turkcell"
 
         bot.send_message(call.message.chat.id, text)
 
